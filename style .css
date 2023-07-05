@@ -1,0 +1,18 @@
+.h2{color: aqua ;
+     background-color: blue;
+    text-align: center;
+    margin-bottom: 5px dotted tomato;
+}
+.list{
+    background-color: yellow;
+    text-align: center;
+    background-image: url("lone-tree_181624-46361.avif");
+    
+    
+}
+.para{
+    margin: auto;
+    padding: 5px;
+    background-color: cadetblue;
+    
+}

@@ -34,15 +34,13 @@
     color: azure;
     display: flex;
     justify-content: space-around;
-    height: 600px;
+    height: 500px;
     margin-top: 20px;
     padding: 20px;
+    border: 2px solid gray;
 }
 .banner-photo{
     
-    
-    
-
     
 }
 .banner-text{
@@ -51,11 +49,67 @@
     padding-top: 200px;
 }
 .btn{
-    padding-top: 10px;
-    color: rgb(231, 226, 226);
+    padding: 15px 10px;
+    color: rgb(19, 18, 18);
     margin: 25px;
-    background-color: red;
+    background-color: rgb(247, 6, 6);
     text-align: center;
     font-size: 18px;
     border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.description{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom:10px ;
+}
+.btn:hover{
+    color: aqua;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 500px;
+    border: 2px solid gray; 
+    background-color:gray;
+}
+
+
+.about-info{
+text-align: center;
+}
+.about-h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+.box{
+    width: 250px;
+    height: 325px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+}
+.service-container{
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    border: 2px solid gray; 
+    background-color: black;
+}
+.service-im{
+    height: 120px;
+    width: 120px;
 }

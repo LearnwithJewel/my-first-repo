@@ -1,18 +1,30 @@
-.h2{color: aqua ;
-     background-color: blue;
-    text-align: center;
-    margin-bottom: 5px dotted tomato;
+*{
+    margin: 0px;
+    padding: 0px;
+
 }
-.list{
-    background-color: yellow;
-    text-align: center;
-    background-image: url("lone-tree_181624-46361.avif");
-    
-    
+.manu-container{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
-.para{
-    margin: auto;
-    padding: 5px;
-    background-color: cadetblue;
-    
+.logo-photo{
+    width: 50px;      
+}
+.manus{
+    display: flex;
+}
+.items{
+    margin: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.items:hover{
+    color: aqua;
 }

@@ -14,7 +14,7 @@
 
 }
 .logo-photo{
-    width: 50px;      
+    width: 30px;      
 }
 .manus{
     display: flex;
@@ -27,4 +27,35 @@
 }
 .items:hover{
     color: aqua;
+}
+.banner-container{
+    justify-content: center;
+    background-color:rgb(15, 3, 3);
+    color: azure;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.banner-photo{
+    
+    
+    
+
+    
+}
+.banner-text{
+    width: 600px;
+    text-align: center;
+    padding-top: 200px;
+}
+.btn{
+    padding-top: 10px;
+    color: rgb(231, 226, 226);
+    margin: 25px;
+    background-color: red;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
 }
